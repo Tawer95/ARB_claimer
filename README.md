@@ -7,6 +7,7 @@ Instruction:
 python -m pip install -r requirements. txt
 ```
 3. Paste your private key and destination addresses in config.py
-4. Run async_claim.
+4. Paste your RPC async_claim.py
+5. Run async_claim.py
 
 0.005 eth or ~$10 for each wallet, if you need a more likely requirement, increase gasLimit and gasPrice, they can both change and affect the probability of fulfillment.
