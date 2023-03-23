@@ -5,7 +5,7 @@ from config import prv_key_array, destination_address_array
 
 
 # Connect to node
-NETWORK = 'https://arbitrum-one.public.blastapi.io'
+NETWORK = 'https://arbitrum-one.public.blastapi.io' # OR YOUR OWN RPC!!!
 w3 = Web3(HTTPProvider(NETWORK))
 
 # Contract addresses
