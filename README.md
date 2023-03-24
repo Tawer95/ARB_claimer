@@ -11,3 +11,12 @@ python -m pip install -r requirements. txt
 5. Run async_claim.py
 
 0.005 eth or ~$10 for each wallet, if you need a more likely requirement, increase gasLimit and gasPrice, they can both change and affect the probability of fulfillment.
+--------------------------------------------------------------------------------------
+
+File check_eligibility.py need only for check your drop in contract. Paste your wallets in ```wallets``` like this
+```
+wallets = {
+    1: 'YOUR ADDRESS FIRST',
+    2: 'YOUR ADDRESS SECOND',
+}
+```
