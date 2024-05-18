@@ -29,7 +29,7 @@ async def send_claim_and_transfer(prv_key, dest_address):
         {
             'from': account.address,
             'nonce': w3.eth.get_transaction_count(account.address),
-            'gas': 500000,
+            'gas': 1000000,
             'gasPrice': w3.to_wei(0.1, 'gwei')
         }
     )
@@ -48,7 +48,7 @@ async def send_claim_and_transfer(prv_key, dest_address):
         {
             'from': account.address,
             'nonce': w3.eth.get_transaction_count(account.address),
-            'gas': 500000,
+            'gas': 1000000,
             'gasPrice': w3.to_wei(0.1, 'gwei')
         }
     )
